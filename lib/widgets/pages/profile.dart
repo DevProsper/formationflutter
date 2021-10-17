@@ -6,11 +6,13 @@ class profile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    return Scaffold(
         appBar: AppBar(
           title: Text("Profile"),
         ),
         drawer: NavDrawer(),
-        body: Center(child: Text("This is profile page")));
+        body: Center(
+            child: Text("Page de profile")
+        ));
   }
 }

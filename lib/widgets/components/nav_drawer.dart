@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/material/divider.dart';
-import 'package:tppratique/widgets/pages/Profile.dart';
+import 'package:tppratique/widgets/pages/profile.dart';
 import 'package:tppratique/widgets/pages/homepage.dart';
 
 class NavDrawer extends StatelessWidget {
@@ -23,7 +23,7 @@ class NavDrawer extends StatelessWidget {
                   Expanded(
                     flex: 6,
                     child: Text(
-                      "Codes Insider",
+                      "ASNEC—IT",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,

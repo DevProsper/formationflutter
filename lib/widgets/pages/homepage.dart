@@ -9,7 +9,7 @@ class MyHomePage extends StatelessWidget {
           title: Text("Asnec-it"),
         ),
         body: Center(
-            child: Center(child: Text("Home page"))
+            child: Center(child: Text("Page d'acceuil"))
         ),
         drawer: NavDrawer()
     );
