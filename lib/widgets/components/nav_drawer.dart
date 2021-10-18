@@ -35,18 +35,16 @@ class NavDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: Text("Acceuil"),
+            title: Text("Boutton"),
             leading: IconButton(
               icon: Icon(Icons.home),
               onPressed: () {
-                //Navigator.of(context).pop();
+                Navigator.of(context).pop();
               },
             ),
            onTap: ()
             {
               Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (BuildContext context) => MyHomePage()));
             },
           ),
           Divider(
@@ -69,6 +67,20 @@ class NavDrawer extends StatelessWidget {
           Divider(
             color: Colors.grey,
           ),
+          ListTile(
+            title: Text("Profile"),
+            leading: IconButton(
+              icon: Icon(Icons.account_circle),
+              onPressed: () {
+              },
+            ),
+            onTap: ()
+            {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => profile()));
+            },
+          )
         ],
       ) ,
     );
